@@ -1,0 +1,42 @@
+{
+  "name": "ajs-containers-map",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack serve",
+    "test": "jest",
+    "test:coverage": "jest --coverage"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.js$": "babel-jest"
+    },
+    "testEnvironment": "node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olga-sambulova/ajs-containers-map.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/olga-sambulova/ajs-containers-map/issues"
+  },
+  "homepage": "https://github.com/olga-sambulova/ajs-containers-map#readme",
+  "devDependencies": {
+    "@babel/cli": "^8.0.4",
+    "@babel/core": "^8.0.1",
+    "@babel/preset-env": "^8.0.2",
+    "@jest/globals": "^30.4.1",
+    "babel-jest": "^30.4.1",
+    "babel-loader": "^10.1.1",
+    "html-webpack-plugin": "^5.6.8",
+    "jest": "^30.4.2",
+    "webpack": "^5.109.2",
+    "webpack-cli": "^7.2.2"
+  }
+}
